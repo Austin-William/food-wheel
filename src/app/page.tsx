@@ -118,7 +118,7 @@ export default function Home() {
             <div className="flex flex-row items-center justify-center mt-8">
               <Input
                 type="text"
-                placeholder="Enter a food"
+                placeholder="Ajouter un plat"
                 value={value}
                 onChange={(e) => { setValue(e.target.value) }}
                 onKeyPress={(e) => { handleInput(e) }}
@@ -131,19 +131,19 @@ export default function Home() {
             </div>
             <div className="w-100 flex flex-row justify-around gap-6">
               <Button
-                text="Save list"
+                text="Sauvgarder"
                 type="button"
                 classname="p-2 transition-all duration-200 hover:bg-teal-900 border-teal-900 border-2 text-white rounded"
                 onClick={saveFoods}
               />
               <Button
-                text="Reset"
+                text="Réintialiser"
                 type="button"
                 classname="p-2 transition-all duration-200 hover:bg-orange-700 border-orange-700 border-2 text-white rounded"
                 onClick={resetFoods}
               />
               <Button
-                text="Delete saved list"
+                text="Supprimer"
                 type="button"
                 classname="p-2 transition-all duration-200 hover:bg-red-700 border-red-700 border-2 text-white rounded"
                 onClick={deleteFoods}
@@ -151,7 +151,7 @@ export default function Home() {
             </div>
             <div className="mt-5">
               <Button
-                text="Spin the Wheel"
+                text="Lancer la roue"
                 type="button"
                 classname="p-3 bg-transparent text-white rounded-full border-2 border-white hover:bg-white hover:text-black transition-all duration-200"
                 onClick={startSpinning}
