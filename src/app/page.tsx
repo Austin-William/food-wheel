@@ -97,7 +97,7 @@ export default function Home() {
       <div className="py-28 px-6 xl:px-32">
         <div className="flex flex-col items-center gap-6">
           <h1 className="text-5xl font-bold text-center tracking-wide">
-            Ultimate Food Picker
+            Ultimate Food Wheel
           </h1>
           <p className="text-xl mt-6 text-center text-white/80 tracking-wide">
             Vous ne savez pas quoi manger ? <br /> <ins>Ajouter</ins> ou <ins>supprimer</ins> les repas de votre choix et laissez la roue choisir pour vous.

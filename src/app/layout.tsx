@@ -6,7 +6,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Ultimate Food Wheel",
-  description: "Are you struggling to decide what to eat? Let the Ultimate Food Wheel decide for you!",
+  description: "Vous ne savez pas quoi manger ? Ajouter ou supprimer les repas de votre choix et laissez la roue choisir pour vous.",
 };
 
 export default function RootLayout({
