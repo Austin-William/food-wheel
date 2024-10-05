@@ -20,6 +20,7 @@ export default function Home() {
   function startSpinning() {
     setIsSpinningAnimation(true);
     setIsSpinning(false);
+    redirectionToTop();
     setTimeout(() => {
       selectRandomFood();
       setIsSpinning(true);
@@ -32,6 +33,16 @@ export default function Home() {
     const randomIndex = Math.floor(Math.random() * foods.length);
 
     setChoosedFood(foods[randomIndex]);
+  }
+
+  function redirectionToTop() {
+    if (checkIfMobile()) {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    }
+  }
+
+  function checkIfMobile() {
+    return window.innerWidth < 768;
   }
 
   // local storage functions
