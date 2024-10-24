@@ -1,36 +1,32 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Food Wheel 🍽️
 
-## Getting Started
+## Description
+The **Food Wheel** app is designed to make your meal choices simpler and more fun. If you're having trouble deciding what you're going to eat today, let the wheel do it for you! The user can add meal options, and with a single click, the chance will decide a random dish.
 
-First, run the development server:
+## Features
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+- **Random choice of meals** : Let the chance to decide your meal.
+- **Save your preferences** : Save, reset or delete your food list. It will be saved in your local storage of your browser.
+- **Personalization** : Add or remove meals according to your tastes and desires.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Installation
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Prerequisites
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+- NodeJS
+- npm or yarn
 
-## Learn More
+### Steps
 
-To learn more about Next.js, take a look at the following resources:
+1. After cloning this repo, install the package
+  ```bash
+  npm i
+  ```
+2. Start the app
+ ```bash
+  npm start
+ ```
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Authors
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
-
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- Austin-William Lo
